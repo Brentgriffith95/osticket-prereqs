@@ -88,5 +88,25 @@ Download and install  php-7.3.8-nts-Win32-VC15-x86.zip and make sure to extract 
 Next download and install VC_redist.x86.exe. Then download and install mysql-5.5.62-win32.msi.
 The setup will be  Launch Wizard > Standard Configuration > Next > Set the password to "Password1" > Execute
 
+![IgHDUDU - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/3f294e28-9944-4ab1-a806-86bf45ba06ae)
+
+
+Type IIS in the search bar and open it. Make sure to right click and open as administrator. After opening, click the "PHP Manager" icon > click "Register new PHP version" > click "Browse Files" > C:\PHP > open "php-cgi"
+
+After all is done restart the IIS server.
+
+
+
+![bRg84In - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/0857cd52-0093-46b4-8e7c-1171de9004a5)
+
+
+
+
+
+We must now install the file  osTicket-v1.15.8 from the install files. After the file is done downloading, open two seperate windows. Now navigate to the 
+osTicket-v1.15.8.zip folder and "inetpup". 
+
+
+![JGIyeiR - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/9b989be1-be86-4151-ac00-f96f7372de7d)
 
 
