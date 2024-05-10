@@ -68,31 +68,25 @@ After IIS is installed, open Microsoft Edge and type "127.0.0.1" in the browser.
 
 
 
-
-
-![3eyeq1c - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/f3a7ffe8-fe75-4a44-8a84-40bf274e860c)
+![3eyeq1c - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/cccfddbd-4bd1-4114-aca4-7c7cf42465d4)
 
 Now we download and install PHPManagerForIIS_V1.5.0.msi as well as rewrite_amd64_en-US.msi.
 
 
+![hX3c87m - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/bc8ce9ab-cdf9-46d6-be4d-54dd5c5e571c)
+
+Then we create a new directory in the C drive called PHP or C:\PHP.
 
 
-![hX3c87m - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/d1369aa1-9b3c-4238-9ca5-220de10f6bae
+![JOBRQXl - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/cec9f103-ffb2-4283-8742-99d0a42c5f14)
 
-After you install the programs we must now create a new directory in the C drive clled PHP or C:\PHP.
-
-
-![JOBRQXl - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/329ce3c8-9b73-4ad0-8006-1fa1b57d99d4)
-
-After we create the new drive download and extract php-7.3.8-nts-Win32-VC15-x86.zip into C:\PHP.
+Download and install  php-7.3.8-nts-Win32-VC15-x86.zip and make sure to extract all content into the C:\PHP directory.
 
 
+![GgEZmQN - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/2dd9c70f-2d56-4646-ac9f-21f6180b57eb)
 
-
-![GgEZmQN - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/56f7b328-3ddc-4865-aebe-f09145443dbb
-
-Download and install VC_redist.x86.exe as well as mysql-5.5.62-win32.msi.
-
+Next download and install VC_redist.x86.exe. Then download and install mysql-5.5.62-win32.msi.
+The setup will be  Launch Wizard > Standard Configuration > Next > Set the password to "Password1" > Execute
 
 
 
