@@ -109,4 +109,22 @@ osTicket-v1.15.8.zip folder and "inetpup".
 
 ![JGIyeiR - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/9b989be1-be86-4151-ac00-f96f7372de7d)
 
+Go into the inetpup folder, navigate to "wwwroot" and transfer the "upload" folder from the osTicket zip file. After completion rename the file from "upload" to "osTicket".
 
+
+
+
+
+![bgHS8zl - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/dae66f17-6d1f-4048-b2d1-ecf2eca07121)
+
+Now click restart the IIS server.
+
+
+
+
+![gawtQZG - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/e5d42a03-609a-4192-a90c-5214aa14c9a8)
+
+Restart the IIS server as admininstrator. Then expand VM1 on the left menus. Go into Sites > Default Websites > Click osTicket. Next click on "Browse *80 which will then open the web browser and start the osTicket Installer.
+
+
+![qRnIq3d - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/fe3ef276-3f4c-4e5c-a797-4a0d3a8cae48)
