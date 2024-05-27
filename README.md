@@ -128,3 +128,50 @@ Restart the IIS server as admininstrator. Then expand VM1 on the left menus. Go 
 
 
 ![qRnIq3d - Imgur](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/fe3ef276-3f4c-4e5c-a797-4a0d3a8cae48)
+
+Next head back into the IIS Manager and into osTicket. Then click on the "PHP Manager" icon and then click "Enable or disable an extension" at the botom.
+
+
+![Screenshot (81) edit](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/1152ba59-36d6-43c9-8e42-97c8ab067459)
+
+We want to now enable the following extensions "php_imap.dll", "php_intl.dll", and "php_opcache.dll". Right click on each and hit enable.
+
+
+![Screenshot (83) edit](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/1c477b9f-d1c3-4781-abdc-bcdc98436790)
+
+After we enable the extensions refresh the browser. Then check and make sure your osTicket installer looks like the screenshot above with extensions checked.
+
+
+![Screenshot (84) edit](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/9c56ee56-9a81-4073-85eb-0def875dfccb)
+
+
+Open up file explorer and head back the osTicket inside the intepub folder. Next we click on include and locate "ost-sampleconfig.php" at the bottom of the list.
+
+
+![Screenshot (85) edit](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/559cde5e-6174-44a5-993b-c322742067e8)
+
+After locating the correct file we will rename it from "ost-sampleconfig.php" to "ost-config.php".
+
+
+![Screenshot (86) edit](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/fcfac4dc-6a6a-40e5-8005-04da1ca49e92)
+Right click on the file, then head into Properties > Security > Advanced > Disable Inheritance > Remove all.
+
+
+![Screenshot (87) edit](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/151715ba-6164-4ccb-82fb-416124d4e719)
+
+Next we want to click Add > Select a principle > type "everyone" in the object box > Check name > Press Ok.
+
+
+![Screenshot (88) edit](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/a2022e67-037a-4dcc-93c5-d64b358f0ffb)
+
+Now we want to check the box that says "Full Control" then click OK > Apply and then OK until the properties window closes.
+
+
+![Screenshot (89) edit](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/325cc9f7-e61f-434b-abe9-4fda9c8c97b3)
+
+Navigate back to the osTicket installer and click "Continue"
+
+
+![Screenshot (90) edit](https://github.com/Brentgriffith95/osticket-prereqs/assets/150200843/1056cfc8-03f9-40a4-bfae-dda415305c63)
+
+
